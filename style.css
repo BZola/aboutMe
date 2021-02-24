@@ -1,0 +1,93 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(225, 175, 229); 
+    color: rgb(255, 255, 255);  
+    background-image: url("..images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;  
+    background-color: #d5c0d6ad;
+  }
+  
+  
+ 
+  
+  ol {  
+    list-style: decimal;
+    padding-left: 50px;
+  }
+
+
+  .hyperlinks {
+    color: #882483;
+    text-decoration: none;
+    
+  }
+ol.movieList>li>ul>li:nth-child(2n-1){
+  color:#e08feb;
+}
+
+ol.movieList>li>ul>li:nth-child(2n){
+  text-indent:40px;
+  list-style-type: none;
+}
+
+  
+ 
+  
+  a:hover {
+    color: #8f1489;  
+    text-decoration: underline;
+  }
+  
+  h3{
+    text-shadow:  1px 1px 0px rgb(97, 10, 39);
+  }
+  
+  .column {
+    float: left;
+     width: 350px; 
+    width: 350px; 
+    height: 200px;
+    padding: 10px 10px 20px 20px;
+    
+  }
+  
+  .container div.column img {
+    width: 350px; 
+    height: 200px;
+    border-radius: 5px; 
+  
+  }
+  
+ 
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+ 
+  
+ 
+  
+
+  
+
+  
+
+  
+ 
+  
+  
+  
